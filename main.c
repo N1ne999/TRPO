@@ -6,9 +6,8 @@ int main() {
 	double a, b, c;
 	double x1, x2, d;
 
-
 	printf("Введите значения уравнения A, B, C \n");
-	scanf("%d %d %d", &a, &b, &c);
+	scanf("%f %f %f", &a, &b, &c);
 
 	d = b * b - 4 * a * c;
 
